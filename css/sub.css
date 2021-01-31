@@ -1,0 +1,110 @@
+/* sub.css(서브 페이지용) */
+/* 회사 소개 */
+
+#company_info {
+    height: 100vh;
+    background-image: url(../images/info_background@2x.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    /*
+    width: 100%;
+	height: 0;
+	padding-top : calc(668 / 414 * 100%); /* calc (이미지 높이 ÷ 이미지 가로 × 100 %) */
+	/* background : url(../images/info_background@2x.png) center center / cover no-repeat; */
+}
+
+#company_info > div {
+    padding-top: 100px;
+    padding-bottom: 125px;
+    width: 414px;
+    height: 668px;
+    color: #fff;
+    font-weight: 500;    
+    margin: 0 auto;
+    text-align: center;
+}
+
+#company_info > div > .brand > img {
+    width: 206px;
+    margin-bottom : 5px;
+}
+#company_info .brand {
+    font-size: 30px;
+    font-weight: bold;
+}
+#company_info > div > .par1 {
+    margin-top: 35px;
+    margin-bottom: 35px;  
+}
+#company_info .ceo {
+    text-align: right;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+
+/* 오시는 길 페이지 css*/
+#location > #main > section > header {
+    width: 100%;
+    height: 100px;
+    background: rgb(99, 99, 99);
+    background-image: url(../images/location.header_bg.jpg);
+    background-repeat: no-repeat;
+    background-position:center ;
+}
+
+#location > #main > section > header > h1 {
+    line-height: 100px;
+    color: #fff;
+}
+
+#location > #main > section > article > h2 {
+    margin-top: 20px;
+    margin-left: center;
+    line-height: 35px;
+    width: 170px;
+    background: #f4d324;
+    text-align: center;
+    display: inline-block;
+}
+
+#location > #main > section > article > p {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#location > #main #map {
+    width: 100%;
+    height: 460px;
+    background: #ccc;
+}
+
+.address {
+    width: 376px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.address table tr {
+    line-height: 40px;
+}
+
+.address table tr th {
+    width: 95px;
+    text-align: left;
+    padding-right: 30px;
+    vertical-align: top;
+}
+.address table tr td {
+    text-align: left;
+    line-height: 20px;
+    font-size: 13px;
+}

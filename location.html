@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오시는 길 &lt; 메가커피</title>
+    <!-- 웹 폰트 -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- font-awesome 아이콘 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/sub.css">
+    <!-- 제이쿼리 -->
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <!-- 사용자 자바스크립트-->
+    <script src="./js/main.js"></script>
+</head>
+
+<body id="location">
+    <header id="main_header">
+        <button class="btn_toggle">
+            <img src="./images/Icon feather-menu.svg" alt="menu">
+        </button>
+        <h1>
+            <a href="./">
+                <img src="./images/logo.svg" alt="메가커피">
+            </a>
+        </h1>
+        <!-- 메인메뉴 -->
+        <nav id="gnb">
+            <div>
+                <button class="btn_close">
+                    <img src="./images/Icon material-close.svg" alt="close">
+                </button>
+            </div>
+            <ul>
+                <li><a href="./info.html">회사소개</a></li>
+                <li><a href="#">체험전</a></li>
+                <li><a href="#">메가신제품</a></li>
+                <li><a href="#">매장용품관</a></li>
+                <li><a href="#">입점문의</a></li>
+                <li><a href="./location.html">오시는 길</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="btn_right">
+            <img src="./images/Icon material-person-outline.svg" alt="mypage">
+        </a>
+    </header>
+
+    <div id="main">
+        <section>
+            <!-- 콘텐츠 안에서도 헤더 사용 가능 -->
+            <header>
+                <h1>오시는 길</h1>
+            </header>
+            <article>
+                <h2>(주)비앤씨인터내셔널</h2>
+                <p>본사 안내</p>
+                <div id="map">
+                    <!-- 여기에 지도 들어감 -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3161.943027725854!2d126.88662031597525!3d37.57995923111567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c996d5a590157%3A0x31bf5aa0622f32fa!2z67mF7Luk7ZS8!5e0!3m2!1sko!2skr!4v1611823585326!5m2!1sko!2skr" width="100%" height="460" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </article>
+            <div class="address">
+                <!-- 보더 스타일은 css로 할 것-->
+                <table>
+                    <tr>
+                        <th>주소</th>
+                        <td>
+                            (10911) 경기도 파주시 상지석길 353 
+                            <br>오시는 길 → '운정역'에서 088번 버스로 '구양계장' 하차, 도보로 1분)
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>고객센터</th>
+                        <td>1566-1039</td>
+                    </tr>
+                    <tr>
+                        <th>팩스</th>
+                        <td>031-8071-1033</td>
+                    </tr>
+                    <tr>
+                        <th>이메일</th>
+                        <td>mega@megacoffee.co.kr</td>
+                    </tr>
+                    
+                </table>
+
+            </div>
+        </section>
+    </div><!-- end main-->
+
+    <footer id="main_footer">
+        <div class="sns">
+            <a href="#"><img src="./images/facebook.svg" alt="facebook"></a>
+            <a href="#"><img src="./images/instagram.svg" alt="instargram"></a>
+            <a href="#"><img src="./images/blog.svg" alt="youtube"></a>
+        </div>
+        <div id="address">
+            <div class="customer_service">
+                <ul>
+                    <li><a href="#">개인정보처리방침&nbsp; </a>|</li>
+                    <li><a href="#"> &nbsp;이용약관&nbsp; </a>|</li>
+                    <li><a href="#"> &nbsp;이용안내&nbsp; </a>|</li>
+                    <li><a href="#"> &nbsp;대량구매문의</a></li>
+                </ul>
+            </div>
+            <p class="tel">대표번호
+                <a href="tel:1566-1039">1566-1039</a><br>
+                <span>고객센터 평일 09:30-18:00 | 토요일 9:00-12:30 <br>
+                    점심 12:00-13:00 (일/공휴일 휴무)</span>
+            </p>
+            <p class="info">
+                법인명: (주)비앤씨인터내셔널 | 대표: 서보현 | 개인정보 책임자: 김현수 <br>
+                사업자 등록번호: 141-81-08831 | 주소: 경기도 파주시 상지석길 353
+            </p>
+        </div>
+        <p class="copy">
+            Copyrightⓒ2007~ megacoffee.co.kr All Rights Reserved.
+        </p>
+    </footer>
+</body>
+
+</html>
