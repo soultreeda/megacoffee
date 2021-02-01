@@ -80,8 +80,8 @@
 
 #location > #main #map {
     width: 100%;
-    height: 460px;
-    background: #ccc;
+    height: 100%;
+    /* background: #ccc; */
 }
 
 .address {
