@@ -20,6 +20,7 @@ body {
     font-size: 12px;
     line-height: 1.4em; /* 1.4 기본값 */
     text-align: center;
+    margin: 0 auto;
 }
 
 h2 {
@@ -52,7 +53,8 @@ p {
 
 #main_header > h1 > a > img {
     width: 141px;
-    height: 48px;
+    height: 34px;
+    line-height: 68px;
 }
 
 #main_header > .btn_toggle {
@@ -105,8 +107,8 @@ p {
 #service ul li > a {
     /* outline: 1px solid red; */
     /* display: inline-block; */
-    height: 47px;
-    line-height: 47px;
+    height: 60px;
+    line-height: 60px;
 }
 
 #service ul li > a > img {
@@ -115,51 +117,101 @@ p {
     vertical-align: middle;
 }
 
-#mega_bakery {  
-    padding-bottom: 60px;
+#mega_bakery {
+    width: 100%;
+    height: 215px;
+    margin-bottom: 40px;
 }
 #mega_bakery > h2 {
-    margin-bottom: 12px;
+    margin-bottom: 16px;
 }
 #mega_bakery img{    
-    width: 366px;
+    width: 100%;
     height: 215px;
-    border-radius: 20px;
+    border-radius: 20px;  
+}
+
+#best {
+    width: 100%;
+    background: #fff;
+    overflow: hidden;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+#best ul li {
+    float: left; 
+    width: 50%;
+    text-align: center;    
+    margin-bottom: 30px;
+}
+#best ul li > p {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 0px;
+}
+#best ul li > a {
+    /* outline: 1px solid red; */
+    /* display: inline-block; */
+    height: 208px;
+    line-height: 208px;
+}
+
+#best ul li > a > img {
+    width: 90%;
+    height: 100%;
+    vertical-align: middle;    
 }
 
 
-#best {
+#mega_deal {
+    width: 100%;
+    clear: both;
+}
+#mega_deal img {
+    width: 100%;
+    height: 138px;
+}
+
+
+#new {
+    width: 100%;
+    background: #fff;
+    overflow: hidden;
+    padding-top: 60px;
     padding-bottom: 60px;
 }
 
-#best .best_product a {
-    display: inline-block;
-    width: 172px;
-    height: 256px;
-    margin-left: 20px;
-    margin-right: 30px;
+#new ul li {
+    float: left; 
+    width: 33.33%;
+    text-align: center;    
 }
-#best .best_product a > img {
-    width: 170px;
-    height: 206px;
-    border-radius: 20px;
+#new ul li > p {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 10px;    
 }
-#best .best_product a:nth-child(2n){
-    margin-left: 0px;
-    margin-right: 0px;
-}
-
-#best .best_product a > p {
-    width: 170px;
-    height: 40px;
-    margin-left: 0;
+#new ul li > a {
+    /* outline: 1px solid red; */
+    /* display: inline-block; */
+    height: 135px;
+    line-height: 135px;
 }
 
-#mega_deal {
-    clear: both;
-    margin-bottom: 60px;
+#new ul li > a > img {
+    /* width: 117px; */
+    width: 90%;
+    height: 100%;
+    vertical-align: middle;
 }
 
+
+/*
 #new {
     margin-bottom: 60px;
 }
@@ -186,17 +238,18 @@ p {
     height: 40px;
     margin-left: 0;
 }
+*/
 
 
 
 #main_footer {
     background: #333;
-    color: #c2c2c2;
+    color: #c2c2c2;    
     padding-top: 60px;
     padding-bottom: 60px;
     padding-left: 20px;
     padding-right: 20px;
-    margin: 0px;
+    /* margin: 0px; */
 }
 #main_footer .sns {
     margin-bottom: 25px;

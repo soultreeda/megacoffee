@@ -1,12 +1,15 @@
 /* sub.css(서브 페이지용) */
+
 /* 회사 소개 */
 
 #company_info {
-    height: 100vh;
+    /* height: 100vh; */
+    /* max-height: 668px; */
     background-image: url(../images/info_background@2x.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    /* outline: 2px solid red; */
     
     /*
     width: 100%;
@@ -16,14 +19,17 @@
 }
 
 #company_info > div {
-    padding-top: 100px;
+    padding-top: 125px;
     padding-bottom: 125px;
-    width: 414px;
-    height: 668px;
+    padding-right: 20px;
+    width: 100%;
+    max-width: 414px;
+    /* height: 668px; */
     color: #fff;
     font-weight: 500;    
     margin: 0 auto;
     text-align: center;
+    vertical-align: middle;
 }
 
 #company_info > div > .brand > img {
@@ -48,49 +54,67 @@
 
 
 
+
 /* 오시는 길 페이지 css*/
+#location {
+    width: 100%;
+}
+
 #location > #main > section > header {
     width: 100%;
     height: 100px;
     background: rgb(99, 99, 99);
     background-image: url(../images/location.header_bg.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     background-position:center ;
 }
 
 #location > #main > section > header > h1 {
     line-height: 100px;
     color: #fff;
+    font-size: 30px;
 }
 
 #location > #main > section > article > h2 {
-    margin-top: 20px;
-    margin-left: center;
-    line-height: 35px;
-    width: 170px;
-    background: #f4d324;
+    margin-top: 28px;
+    margin-left: 0;
+    /* margin-left: center; */
+    /* line-height: 35px; */
+    /* width: 170px; */
+    background: #fff;
+    font-size: 16px;
     text-align: center;
     display: inline-block;
 }
 
 #location > #main > section > article > p {
     margin-bottom: 30px;
+    margin-left: 0;
     text-align: center;
+    font-size: 16px;
+    font-weight: 400;
 }
 
-#location > #main #map {
+#location > #main > #map {
     width: 100%;
-    height: 100%;
+    height: 440px;
     /* background: #ccc; */
-}
+} 
 
-.address {
-    width: 376px;
-    margin-top: 30px;
-    margin-bottom: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
-    display: inline-block;
+
+.address { 
+    width: 100%;
+    max-width: 94%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin: 0 auto;
+    /* display: block; */
+}
+.address > table {
+    margin: 0 auto;
 }
 
 .address table tr {
@@ -102,9 +126,14 @@
     text-align: left;
     padding-right: 30px;
     vertical-align: top;
+    font-size: 14px;
+    font-weight: bold;
 }
 .address table tr td {
     text-align: left;
-    line-height: 20px;
-    font-size: 13px;
+    vertical-align: top;
+    /* line-height: 20px; */
+    font-size: 14px;
+    font-weight: 500px;
 }
+
